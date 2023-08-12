@@ -38,10 +38,10 @@ html {
     transition: .3s;
 }
 
-/* .header.sticky {
+.header.sticky {
     background: var(--bg-color);
 }
- */
+
 .logo {
     position: relative;
     font-size: 2.5rem;
@@ -66,13 +66,13 @@ html {
     color: var(--main-color);
 }
 
-/* #menu-icon {
+#menu-icon {
     position: relative;
     font-size: 3.6rem;
     color: var(--text-color);
     cursor: pointer;
     display: none;
-} */
+}
 
 section {
     min-height: 100vh;
@@ -756,7 +756,7 @@ section:nth-child(odd) .animate.scroll,
 } */
 
 /* BREAKPOINTS */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
@@ -791,9 +791,9 @@ section:nth-child(odd) .animate.scroll,
         background: var(--bg-color);
     }
 
-/*     #menu-icon {
+    #menu-icon {
         display: block;
-    } */
+    }
 
     .navbar {
         position: absolute;
@@ -914,7 +914,7 @@ section:nth-child(odd) .animate.scroll,
 }
 
 /* KEYFRAMES ANIMATION */
-@keyframes homeBgText {
+/* @keyframes homeBgText {
     0%,
     10%,
     100% {
@@ -957,4 +957,4 @@ section:nth-child(odd) .animate.scroll,
     100% {
         width: 0;
     }
-}
+}  */
