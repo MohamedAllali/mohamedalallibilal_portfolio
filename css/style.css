@@ -38,9 +38,9 @@ html {
     transition: .3s;
 }
 
-.header.sticky {
+/* .header.sticky {
     background: var(--bg-color);
-}
+} */
 
 .logo {
     position: relative;
@@ -66,13 +66,13 @@ html {
     color: var(--main-color);
 }
 
-#menu-icon {
+/* #menu-icon {
     position: relative;
     font-size: 3.6rem;
     color: var(--text-color);
     cursor: pointer;
     display: none;
-}
+} */
 
 section {
     min-height: 100vh;
