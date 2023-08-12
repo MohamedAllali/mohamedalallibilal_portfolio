@@ -39,7 +39,7 @@ html {
 }
 
 .header.sticky {
-    background: var(--bg-color);
+    background: yellowgreen;
 }
 
 .logo {
